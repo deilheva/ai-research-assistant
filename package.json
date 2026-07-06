@@ -1,0 +1,27 @@
+{
+  "name": "ai-research-assistant",
+  "version": "1.0.0",
+  "description": "AI Research Assistant API for searching academic papers via Semantic Scholar",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "ai",
+    "research",
+    "papers",
+    "semantic-scholar"
+  ],
+  "author": "deilheva",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
